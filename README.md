@@ -3,18 +3,18 @@ Attack AD Certificate Templates and Mitigate
 
 
 ## Summary
-- [Active Directory Certificate Service](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#active-directory-certificate-services-ad-cs)
-  - [Features](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#features)  
-- [AD CS Attack Vector](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#ad-cs-attack-vector)
-  - [The Weakness](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#the-weakness)
-- [The Attack](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#attack)
-  - [Enumerate User Groups](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#enumerate-user-groups) 
-  - [Enumerate Certificate Template](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#enumerate-certificate-templates)
-    - [Paramaters #1 - Relevant Permissions](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#parameter-1---relevant-permissions)
-    - [Parameters #2 - Client Authentication](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#parameter-2---client-authentication)
-    - [Parameters #3 - Subject Alternative Name](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#parameter-3---subject-alternative-name-san)
-- [Generate Malicious Templates](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#generating-a-malicious-template)
-- [Impersonate User](https://github.com/MalwareBen/AD-Certificate-Templates/edit/main/README.md#impersonate-user-through-certificate)
+- [Active Directory Certificate Service](https://github.com/MalwareBen/AD-Certificate-Templates#active-directory-certificate-services-ad-cs)
+  - [Features](https://github.com/MalwareBen/AD-Certificate-Templates#features)  
+- [AD CS Attack Vector](https://github.com/MalwareBen/AD-Certificate-Templates#ad-cs-attack-vector)
+  - [The Weakness](https://github.com/MalwareBen/AD-Certificate-Templates#the-weakness)
+- [The Attack](https://github.com/MalwareBen/AD-Certificate-Templates#attack)
+  - [Enumerate User Groups](https://github.com/MalwareBen/AD-Certificate-Templates#enumerate-user-groups) 
+  - [Enumerate Certificate Template](https://github.com/MalwareBen/AD-Certificate-Templates#enumerate-certificate-templates)
+    - [Paramaters #1 - Relevant Permissions](https://github.com/MalwareBen/AD-Certificate-Templates#parameter-1---relevant-permissions)
+    - [Parameters #2 - Client Authentication](https://github.com/MalwareBen/AD-Certificate-Templates#parameter-2---client-authentication)
+    - [Parameters #3 - Subject Alternative Name](https://github.com/MalwareBen/AD-Certificate-Templates#parameter-3---subject-alternative-name-san)
+- [Generate Malicious Templates](https://github.com/MalwareBen/AD-Certificate-Templates#generating-a-malicious-template)
+- [Impersonate User](https://github.com/MalwareBen/AD-Certificate-Templates#impersonate-user-through-certificate)
 
 
 
